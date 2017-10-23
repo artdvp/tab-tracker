@@ -1,9 +1,9 @@
-import axios from '@services/Api'
+import Api from './Api'
 
 export default {
-    register (credentials) {
-        return Api().post('register', credentials)
-    }
+  register (credentials) {
+    return Api().post('register', credentials)
+  }
 }
 
 // AuthenticationService.register({
